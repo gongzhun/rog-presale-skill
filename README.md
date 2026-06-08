@@ -50,6 +50,10 @@ bash install.sh
 | `/rog-presale jd tmall` | 只搜索京东和天猫 |
 | `/rog-presale --cn` | 只搜索中文平台（京东、天猫、苏宁） |
 | `/rog-presale --global` | 只搜索国际平台（Amazon、ASUS） |
+| `/rog-presale --jd-official` | 京东结果只含**自营**店铺，过滤第三方 |
+| `/rog-presale --tmall-official` | 天猫结果只含**华硕/ROG 官方旗舰店** |
+| `/rog-presale jd --jd-official` | 只搜京东且只看自营 |
+| `/rog-presale tmall --tmall-official` | 只搜天猫且只看旗舰店 |
 | `/rog-presale ~/Documents/ROG` | 指定报告保存目录，跳过目录询问 |
 | `/rog-presale ~/Documents/ROG/report.md` | 指定完整路径，跳过所有询问直接生成 |
 | `/rog-presale report.md` | 自定义文件名，仍会询问保存目录 |
