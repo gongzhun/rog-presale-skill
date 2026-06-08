@@ -50,7 +50,7 @@ The `$ARGUMENTS` placeholder in the command file is replaced by Claude Code with
 | `主板` / `显卡` / `外设` | Append product type to all search queries |
 | `--cn` | Chinese platforms only (JD, Tmall, Suning) |
 | `--global` | International platforms only (Amazon, ASUS) |
-| `--jd-official` | JD results limited to self-operated (京东自营) listings only; combinable with `jd` |
+| `--jd-official` | JD results limited to self-operated listings only; searches both 玩家国度ROG京东自营旗舰店 and 华硕外设京东自营旗舰店; combinable with `jd` |
 | `--tmall-official` | Tmall results limited to the ASUS/ROG official flagship store (asus.tmall.com); combinable with `tmall` |
 
 | `~/path/to/dir` | Skip directory prompt, save there after user confirms |
